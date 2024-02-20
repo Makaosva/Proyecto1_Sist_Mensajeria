@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-body {
+body,
+menu {
   margin: 0;
 }
 
 .contactos {
+  display: flex;
   flex: 0 0 20rem;
 }
 
@@ -17,4 +19,40 @@ body {
 
 .principal img {
   width: 20%;
+}
+
+menu {
+  background-color: black;
+  width: 10em;
+  min-height: 100vh;
+}
+menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+menu li {
+  padding: 1em;
+  list-style: none;
+}
+menu a {
+  text-decoration: none;
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+}
+menu a:hover {
+  color: white;
+}
+
+.boxPrinc {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+
+#circle {
+  background: lightblue;
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
 }
