@@ -1,13 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 
-body,
-menu {
+* {
   margin: 0;
+  padding: 0;
+}
+.granDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
-.contactos {
+.menuContactos {
+  width: 25%;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+.contacto {
   display: flex;
   flex: 0 0 20rem;
+  border: 1px solid black;
 }
 
 .principal {
@@ -15,14 +28,16 @@ menu {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 75%;
 }
 
 .principal img {
+  margin-bottom: 0;
   width: 20%;
 }
 
 menu {
-  background-color: black;
+  background-color: white;
   width: 10em;
   min-height: 100vh;
 }
@@ -48,11 +63,14 @@ menu a:hover {
 .boxPrinc {
   flex-direction: column-reverse;
   justify-content: space-around;
+  border: 1px solid black;
+}
+
+.boxPrinc div {
 }
 
 #circle {
   background: lightblue;
   border-radius: 50%;
-  width: 30%;
-  height: 30%;
+  width: 40px;
 }
