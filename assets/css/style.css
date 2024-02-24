@@ -48,7 +48,20 @@
 .contacto {
   display: flex;
   flex: 0 0 20rem;
-  /*border: 1px solid black;*/
+  border: 1px solid black;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+}
+
+.principal img {
+  margin-bottom: 0;
+  width: 20%;
 }
 
 menu {
