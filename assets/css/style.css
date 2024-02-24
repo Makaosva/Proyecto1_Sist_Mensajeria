@@ -33,9 +33,8 @@
 }
 
 .principal img {
-  padding: 20px;
-  margin-bottom: 0;
-  width: 20%;
+  padding-bottom: 20px;
+  width: 250px;
 }
 
 .titulo {
@@ -44,7 +43,8 @@
 }
 
 .parrafoprincipal {
-  font-size: 19px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 menu {
